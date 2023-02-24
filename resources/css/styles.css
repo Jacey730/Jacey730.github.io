@@ -36,7 +36,6 @@ header {
 }
 
 #logo {
-  display: inline-block;
   font-family: 'Mr Dafoe', sans-serif;
   font-size: 40px;
   color: #ccc;
@@ -45,10 +44,11 @@ header {
 }
 
 nav {
-  left: 1450px;
+  justify-content: flex-end;
+  display: flex;
+  right: 0;
   height: 100%;
   width: 100%;
-  position: absolute;
 }
 
 nav li {
@@ -183,7 +183,7 @@ footer h4 {
 
 #white_space {
   height: 100px;
-  background-color: #333;
+  background-color: #777;
   width: 100%;
 }
 
